@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Make the QR code clickable
+    //test
     document.getElementById("qrcode").addEventListener("click", function () {
         window.location.href = "/project-M/templates.html"; // Ensure correct path
     });
